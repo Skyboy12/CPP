@@ -1,0 +1,11 @@
+
+.vscode/
+# Ignore everything by default
+*
+# But do not ignore directories so we can reach .cpp files within them
+!*/
+# Keep this .gitignore file itself
+!.gitignore
+# Allow C++ source files anywhere
+!*.cpp
+!**/*.cpp
